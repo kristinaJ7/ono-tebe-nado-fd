@@ -8,13 +8,16 @@
     justify-items: start;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top:92px ;
+    padding-bottom: 96px;
+    padding-left:50px ;
+    padding-right:50px ;
+   
+
 }
 /* Меню */
 .header__menu {
     color: rgba(0, 0, 0, 1);
-    padding-left: 50px;
     font-size: 18px;
     margin-right: 8%;
 }
@@ -47,7 +50,8 @@
     grid-column: 2; 
     justify-self: center;
     width: 148px;
-    height: 105px;  
+    height: 105px;
+    
 }
 .header__logo-image{
     width:  100%;
@@ -55,21 +59,34 @@
 }
 /* Контактная информация */
 .header__address {
-    padding-right: 50px;
-    margin-left: 29%; 
     font-weight: 400;
     line-height: 24.3px;
-    font-family: Raleway;   
+    font-family: Raleway;  
+    justify-self: end;
+  
 }
 .address__text {
-    white-space: nowrap;
-    line-height: 24.3px;  
+    white-space: nowrap;  
 }
 .address__link {
     border-bottom :1px solid rgba(0, 0, 0, 1);
     text-decoration: none;
     white-space: nowrap;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* cover */
 .cover {
     position: relative;
@@ -161,6 +178,25 @@
     background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*lots*/
 .lots{ 
     display: flex;
@@ -205,19 +241,17 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    justify-content: flex-end;
+  
+    justify-content: space-between; 
 }
 .card_type_film{
     background-image: url('../images/card-lot-01.jpg');
-    gap: 274px;
 }
 .card_type_book{
     background-image: url('../images/card-lot-02.jpg');
-    gap: 30px;
 }
 .card_type_picture{
     background-image: url('../images/card-lot-03.jpg');
-    gap: 126px;
 }
 /* title card*/
 .card__title {
@@ -232,6 +266,7 @@
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     position: relative;  
+    padding-top: 48px;
 }
 /* text card*/
 .card__text {
@@ -244,7 +279,7 @@
     line-height: 24px;
     letter-spacing:normal ;
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 48px;  
+    padding-bottom: 48px; 
 }
 .card-link {
     text-decoration: none; 
@@ -262,18 +297,39 @@
     border-bottom: 2px solid;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*об аукционе*/
 .about{
     display:grid;
-    grid-template-columns:  383px 240px  1fr;
-    margin: 120px auto 180px;
-    align-items: center; 
+    grid-template-columns:334px 334px 1fr;
+    padding: 120px 24px 0;
+    column-gap: 25px;
+    align-items: start;
+   
+
 }
 /*logo*/
 .logo_column{
     width: 240px;
     margin-bottom: 320px;
-    margin-left: 71px;
+    padding-top: 35px;
+    padding-left: 47px;
 }
 .logo-container {
     width: 240px;
@@ -283,16 +339,22 @@
     display: flex; 
     justify-content: center; 
     align-items: center;
+   
+    
 }
 .about__logo-image{
     height: 114px;
     max-width: 240px; 
+    
 }
 /* column*/
 .about__column{
     min-width: 693px;
-    display: grid;
-    align-content: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 /*заголовок об аукционе*/
 .about__title{
@@ -300,27 +362,46 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 46.96px;
-    margin-top: 136px;
+   margin-top: 136px;
+    
     margin-bottom: 100px;
+    align-self: start;
 }
 /*текст аукциона*/
 .about__text{
     width: 688px;
-    margin-bottom: 24px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 1 auto;
+    margin-bottom: 180px;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 /*общие стили для футера*/
 .footer {
     display: grid;
     grid-template-columns:1fr min-content 1fr;  
+    padding-left:50px ;
+    padding-right: 50px;
 }
 /*адрес*/
 .address {
     font-size: 18px;
     line-height: 24.3px;
-    padding-left: 50px;
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
@@ -346,7 +427,6 @@
 /*соц сети*/
 .footer__social-list {
     list-style-type: none;
-    padding-right: 50px;
     padding-left: 177px;
     display: flex;
     flex-direction: row;
