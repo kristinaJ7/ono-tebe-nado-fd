@@ -8,12 +8,7 @@
     justify-items: start;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
-    padding-top:92px ;
-    padding-bottom: 96px;
-    padding-left:50px ;
-    padding-right:50px ;
-   
-
+    padding: 92px 50px 96px 50px;
 }
 /* Меню */
 .header__menu {
@@ -61,32 +56,15 @@
 .header__address {
     font-weight: 400;
     line-height: 24.3px;
-    font-family: Raleway;  
+    font-family: Raleway; 
     justify-self: end;
-  
-}
-.address__text {
-    white-space: nowrap;  
+    width: 240px;
 }
 .address__link {
     border-bottom :1px solid rgba(0, 0, 0, 1);
     text-decoration: none;
     white-space: nowrap;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* cover */
 .cover {
     position: relative;
@@ -178,27 +156,8 @@
     background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*lots*/
-.lots{ 
+.lots { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -222,7 +181,7 @@
     gap: 25px;
 }
 /* item list*/
-.lots__card-list-item{
+.lots__card-list-item {
     width: 334px;
     min-height: 596px;
     position: relative; 
@@ -241,7 +200,6 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-  
     justify-content: space-between; 
 }
 .card_type_film{
@@ -298,22 +256,6 @@
     font-weight: 400;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*об аукционе*/
 .about{
     display:grid;
@@ -321,8 +263,6 @@
     padding: 120px 24px 0;
     column-gap: 25px;
     align-items: start;
-   
-
 }
 /*logo*/
 .logo_column{
@@ -338,14 +278,11 @@
     border-radius: 50%; 
     display: flex; 
     justify-content: center; 
-    align-items: center;
-   
-    
+    align-items: center; 
 }
 .about__logo-image{
     height: 114px;
-    max-width: 240px; 
-    
+    max-width: 240px;  
 }
 /* column*/
 .about__column{
@@ -354,7 +291,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
 }
 /*заголовок об аукционе*/
 .about__title{
@@ -362,8 +298,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 46.96px;
-   margin-top: 136px;
-    
+    margin-top: 136px;
     margin-bottom: 100px;
     align-self: start;
 }
@@ -377,20 +312,8 @@
     flex-direction: column;
     gap: 24px;
     flex: 1 1 auto;
-    margin-bottom: 180px;
-    
+    margin-bottom: 180px; 
 }
-
-
-
-
-
-
-
-
-
-
-
 /*общие стили для футера*/
 .footer {
     display: grid;
@@ -405,7 +328,8 @@
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal ;    
+    letter-spacing: normal ;   
+    max-width: 240px;
 }
 .footer__links-list-item  {
     list-style-type: none;
