@@ -8,8 +8,8 @@
 
 ## Project: ono‑tebe‑nado‑fd
 
-- **Live Demo:** [Open in Browser](https://kristinaj7.github.io/ono-tebe-nado-fd) 
-- **Source Code:** [GitHub Repository](https://github.com/kristinaJ7/ono-tebe-nado-fd) — view the project structure, CSS styling, font integration, and image handling.
+- **Live Demo:** (https://kristinaj7.github.io/ono-tebe-nado-fd) 
+- **Source Code:** GitHub Repository - (https://github.com/kristinaJ7/ono-tebe-nado-fd) — view the project structure, CSS styling, font integration, and image handling.
 
 **Tech Stack:** HTML5, CSS3, Responsive Web Design, Project File Structure Management.
 
