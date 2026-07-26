@@ -6,10 +6,10 @@
 
 
 
-## Проект: ono‑tebe‑nado‑fd
+## Project: ono‑tebe‑nado‑fd
 
-- **Посмотреть сайт:**   (https://kristinaj7.github.io/ono-tebe-nado-fd) - Открыть в браузере 
-- **Посмотреть код:** GitHub репозиторий - (https://github.com/kristinaJ7/ono-tebe-nado-fd) — структура папок, CSS‑стили, подключение шрифтов и картинок.
+- **Live Demo:** [Open in Browser](https://kristinaj7.github.io/ono-tebe-nado-fd) 
+- **Source Code:** [GitHub Repository](https://github.com/kristinaJ7/ono-tebe-nado-fd) — view the project structure, CSS styling, font integration, and image handling.
 
-**Стек:** HTML5, CSS3, адаптивная вёрстка, работа с файловой структурой проекта.
+**Tech Stack:** HTML5, CSS3, Responsive Web Design, Project File Structure Management.
 
